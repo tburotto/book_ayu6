@@ -1,31 +1,15 @@
+<div class= "alert alert-success" role="alert">
 <p id="notice"><%= notice %></p>
+</div>
 
-<p>
-  <strong>Title:</strong>
-  <%= @book.title %>
-</p>
-
-<p>
-  <strong>Author:</strong>
-  <%= @book.author %>
-</p>
-
-<p>
-  <strong>Description:</strong>
-  <%= @book.description %>
-</p>
-
-<p>
-  <strong>Genre:</strong>
-  <%= @book.genre %>
-</p>
+<%= render "books/card" %>
 
 <%= link_to 'Edit', edit_book_path(@book) %> |
 <%= link_to 'Back', root_path %>
 
 <h1>Reviews de <%= @book.title %></h1>
 
-<table>
+<table class="table table-striped">
   <thead>
     <tr>
       <th>Title</th>

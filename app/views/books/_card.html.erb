@@ -1,0 +1,12 @@
+<div class="card text-center">
+  <div class="card-header">
+    <h1> <%= @book.title %> </h1>
+  </div>
+  <div class="card-body">
+    <%= image_tag @book.photo.url %>
+  </div>
+  <div class="card-footer">
+    <p> Este libro pertenece al genero <%= @book.genre %> </p>
+    <p> <%= @book.description %> </p>
+    </div>
+</div>

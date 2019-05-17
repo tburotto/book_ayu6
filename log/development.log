@@ -1,0 +1,1023 @@
+Started GET "/" for 192.168.160.1 at 2019-05-17 14:08:03 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "books_development" does not exist
+):
+  
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 192.168.160.1 at 2019-05-17 15:15:46 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActiveRecord::NoDatabaseError (FATAL:  database "books_development" does not exist
+):
+  
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:701:in `rescue in connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:696:in `connect'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:221:in `initialize'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `new'
+activerecord (5.1.5) lib/active_record/connection_adapters/postgresql_adapter.rb:38:in `postgresql_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:759:in `new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:803:in `checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:782:in `try_to_checkout_new_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:743:in `acquire_connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:500:in `checkout'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:374:in `connection'
+activerecord (5.1.5) lib/active_record/connection_adapters/abstract/connection_pool.rb:931:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:116:in `retrieve_connection'
+activerecord (5.1.5) lib/active_record/connection_handling.rb:88:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:562:in `connection'
+activerecord (5.1.5) lib/active_record/migration.rb:553:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.5) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.5) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.5) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.5) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.5) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.7) lib/rack/method_override.rb:22:in `call'
+rack (2.0.7) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.5) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.5) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.7) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.5) lib/rails/engine.rb:522:in `call'
+puma (3.12.1) lib/puma/configuration.rb:227:in `call'
+puma (3.12.1) lib/puma/server.rb:660:in `handle_request'
+puma (3.12.1) lib/puma/server.rb:474:in `process_client'
+puma (3.12.1) lib/puma/server.rb:334:in `block in run'
+puma (3.12.1) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+  [1m[35m (16.3ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" character varying NOT NULL PRIMARY KEY)[0m
+  [1m[35m (7.7ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" character varying NOT NULL PRIMARY KEY, "value" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8210017815390852090)[0m
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateBooks (20190516042959)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.7ms)[0m  [1m[35mCREATE TABLE "books" ("id" bigserial primary key, "title" character varying, "author" character varying, "description" character varying, "genre" character varying, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL)[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190516042959"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+Migrating to CreateReviews (20190516043147)
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (10.3ms)[0m  [1m[35mCREATE TABLE "reviews" ("id" bigserial primary key, "title" character varying, "body" character varying, "book_id" bigint, "created_at" timestamp NOT NULL, "updated_at" timestamp NOT NULL, CONSTRAINT "fk_rails_924a0b30ca"
+FOREIGN KEY ("book_id")
+  REFERENCES "books" ("id")
+)[0m
+  [1m[35m (3.4ms)[0m  [1m[35mCREATE  INDEX  "index_reviews_on_book_id" ON "reviews"  ("book_id")[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190516043147"]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "key"[0m  [["key", "environment"], ["value", "development"], ["created_at", "2019-05-17 15:16:23.355095"], ["updated_at", "2019-05-17 15:16:23.355095"]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT pg_advisory_unlock(8210017815390852090)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 192.168.160.1 at 2019-05-17 15:16:25 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 1391ms (Views: 1366.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:16:35 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 203ms (Views: 158.4ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 15:16:36 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (23.5ms)
+  Rendered books/new.html.erb within layouts/application (37.9ms)
+Completed 200 OK in 235ms (Views: 208.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:16:40 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 198ms (Views: 168.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 15:16:41 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 178ms (Views: 160.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:42:43 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 238ms (Views: 221.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 15:43:45 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 223ms (Views: 203.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 192.168.160.1 at 2019-05-17 15:44:26 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W8hjbw/yLmCgvUs1uTRC8jgsZxg6rw0HxeCyAy6ZtPfhzhJ4xrMhteFB+vALRXAhsZZQSt9dEcS5UmHOkgxUuw==", "book"=>{"title"=>"Tutorial de Rails", "author"=>"tomas burotto", "description"=>"ajaajaj", "genre"=>"estudio"}, "commit"=>"Create Book"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "description", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "Tutorial de Rails"], ["author", "tomas burotto"], ["description", "ajaajaj"], ["genre", "estudio"], ["created_at", "2019-05-17 15:44:26.650334"], ["updated_at", "2019-05-17 15:44:26.650334"]]
+  [1m[35m (5.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 16ms (ActiveRecord: 6.3ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:44:26 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (1.3ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 393ms (Views: 281.8ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/reviews/new?id=1" for 192.168.160.1 at 2019-05-17 15:44:30 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (10.6ms)
+  Rendered reviews/new.html.erb within layouts/application (29.8ms)
+Completed 200 OK in 241ms (Views: 215.0ms | ActiveRecord: 1.7ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 15:44:36 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2N119BFSBRHHq8W5bao6FZ+JrUAvYpmVpCsTTExNtvtXXQwrrRv8DPfYBYKTjkwSsSIdUiTMtUp++BZoIDPWuQ==", "review"=>{"title"=>"pésima ayudantia", "body"=>"jaja", "book_id"=>"1"}, "commit"=>"Create Review"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (3.0ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "body", "book_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "pésima ayudantia"], ["body", "jaja"], ["book_id", 1], ["created_at", "2019-05-17 15:44:36.125743"], ["updated_at", "2019-05-17 15:44:36.125743"]]
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/1
+Completed 302 Found in 31ms (ActiveRecord: 5.0ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:44:36 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 213ms (Views: 193.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:53:18 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 4401ms (Views: 4303.1ms | ActiveRecord: 8.8ms)
+
+
+Started GET "/reviews/new?id=1" for 192.168.160.1 at 2019-05-17 15:53:41 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"1"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (30.6ms)
+  Rendered reviews/new.html.erb within layouts/application (47.1ms)
+Completed 200 OK in 262ms (Views: 243.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/reviews/new?id=1" for 192.168.160.1 at 2019-05-17 15:53:41 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:53:41 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"1"}
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (2.3ms)
+  Rendered reviews/new.html.erb within layouts/application (27.5ms)
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 362ms (Views: 336.1ms | ActiveRecord: 1.3ms)
+
+
+Completed 200 OK in 376ms (Views: 361.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:53:42 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 264ms (Views: 244.8ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:53:47 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 196ms (Views: 179.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:56:28 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 221ms (Views: 206.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 15:57:51 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1723ms (Views: 1696.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:57:57 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 231ms (Views: 209.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 15:59:36 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 160ms (Views: 147.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:03:48 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.3ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 247ms (Views: 225.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:06:23 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.4ms)
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 242ms (Views: 227.1ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:06:37 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.4ms)
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 214ms (Views: 198.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:08:29 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 58ms (ActiveRecord: 0.4ms)
+
+
+  
+SyntaxError (/books/app/views/books/show.html.erb:5: syntax error, unexpected ')', expecting =>
+...ccess", edit_book_path(@book) );@output_buffer.safe_append='...
+...                              ^
+/books/app/views/books/show.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/books/app/views/books/show.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/books/show.html.erb:5: syntax error, unexpected ')', expecting =>
+app/views/books/show.html.erb:37: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/books/show.html.erb:39: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:08:51 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.4ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (15.6ms)
+Completed 200 OK in 222ms (Views: 207.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:08:56 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 245ms (Views: 223.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:08:58 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 340ms (Views: 321.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:08:59 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.8ms)
+  Rendered books/new.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 410ms (Views: 391.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:11:30 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.5ms)
+  Rendered books/new.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 167ms (Views: 147.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:11:59 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 230ms (Views: 214.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:13:04 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.0ms)
+  Rendered books/new.html.erb within layouts/application (15.5ms)
+Completed 200 OK in 221ms (Views: 203.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:13:14 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 236ms (Views: 217.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/1" for 192.168.160.1 at 2019-05-17 16:13:17 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.4ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 1]]
+  Rendered books/show.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 196ms (Views: 180.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:13:37 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 147ms (Views: 136.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:16:37 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 156ms (Views: 145.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:17:54 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 238ms (Views: 221.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:17:57 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.9ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 265ms (Views: 246.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:18:00 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 249ms (Views: 226.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:18:04 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.8ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 209ms (Views: 191.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:18:10 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (3.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 282ms (Views: 259.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:18:15 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/new.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 212ms (Views: 197.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:18:21 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (2.7ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 243ms (Views: 207.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:19:57 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (1.9ms)
+  Rendered books/new.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 247ms (Views: 226.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 192.168.160.1 at 2019-05-17 16:20:16 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"joAHxNHPtYBdTDxv3O53QLpeYYCmLF94D6p8ka6A5k80hnbTGI66VRywjapun0WTM+RW0kPeQ7tzGK9cEhUGAw==", "book"=>{"title"=>"hola", "author"=>"cualquiera", "description"=>"aaaa", "genre"=>"novela"}, "commit"=>"Crear"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "description", "genre", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5, $6) RETURNING "id"[0m  [["title", "hola"], ["author", "cualquiera"], ["description", "aaaa"], ["genre", "novela"], ["created_at", "2019-05-17 16:20:16.700771"], ["updated_at", "2019-05-17 16:20:16.700771"]]
+  [1m[35m (2.9ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/2
+Completed 302 Found in 11ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/books/2" for 192.168.160.1 at 2019-05-17 16:20:16 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.6ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 2]]
+  Rendered books/show.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 243ms (Views: 226.3ms | ActiveRecord: 1.0ms)
+
+
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT pg_try_advisory_lock(8210017815390852090)[0m
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddAttachmentPhotoToBooks (20190517162511)
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "books" ADD "photo_file_name" character varying[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "books" ADD "photo_content_type" character varying[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "books" ADD "photo_file_size" integer[0m
+  [1m[35m (0.3ms)[0m  [1m[35mALTER TABLE "books" ADD "photo_updated_at" timestamp[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES ($1) RETURNING "version"[0m  [["version", "20190517162511"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[35m (0.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.6ms)[0m  [1m[34mSELECT pg_advisory_unlock(8210017815390852090)[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/" for 192.168.160.1 at 2019-05-17 16:25:56 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 198ms (Views: 185.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:25:57 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 289ms (Views: 246.3ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:25:58 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.1ms)
+  Rendered books/new.html.erb within layouts/application (15.0ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 275ms (Views: 261.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:26:33 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (11.6ms)
+  Rendered books/new.html.erb within layouts/application (25.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 293ms (Views: 267.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:26:50 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (4.0ms)
+  Rendered books/new.html.erb within layouts/application (19.3ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 292ms (Views: 271.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/books" for 192.168.160.1 at 2019-05-17 16:28:52 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nhHINd5ByED238/LY/GYI4rx0smAb2T7QHBu3xZUNg/SkYqBmQ3dGyvlc7STWw26o44YpGpMWrBMUQrBinRo1g==", "book"=>{"title"=>"La sombra del Viento", "author"=>"Carlos Ruiz Safon", "description"=>"aaaaa", "genre"=>"Novela", "photo"=>#<ActionDispatch::Http::UploadedFile:0x00007efbf4114800 @tempfile=#<Tempfile:/tmp/RackMultipart20190517-1-390ac6.jpg>, @original_filename="portada_la-sombra-del-viento_carlos-ruiz-zafon_201609051632.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[photo]\"; filename=\"portada_la-sombra-del-viento_carlos-ruiz-zafon_201609051632.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Crear"}
+[paperclip] Trying to link /tmp/RackMultipart20190517-1-390ac6.jpg to /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-1b4n6p9.jpg
+Completed 500 Internal Server Error in 39ms (ActiveRecord: 3.0ms)
+
+
+  
+Paperclip::Errors::MissingRequiredValidatorError (Paperclip::Errors::MissingRequiredValidatorError):
+  
+app/controllers/books_controller.rb:28:in `create'
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:30:25 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.7ms)
+  Rendered books/new.html.erb within layouts/application (17.9ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 288ms (Views: 237.1ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/books" for 192.168.160.1 at 2019-05-17 16:30:43 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"46+oChyKH26PmVV7oeZ/zCm0TWOupwdbicfGr0cPsNxZqdkd1csQu85l5L4Tl00foA56MUtVG5j1dRVi+5pQkA==", "book"=>{"title"=>"La Sombra del Viento", "author"=>"Carlos Ruiz Safon", "description"=>"aaaa", "genre"=>"novela", "photo"=>#<ActionDispatch::Http::UploadedFile:0x00007efbf8058778 @tempfile=#<Tempfile:/tmp/RackMultipart20190517-1-1fhl8po.jpg>, @original_filename="portada_la-sombra-del-viento_carlos-ruiz-zafon_201609051632.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"book[photo]\"; filename=\"portada_la-sombra-del-viento_carlos-ruiz-zafon_201609051632.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "commit"=>"Crear"}
+[paperclip] Trying to link /tmp/RackMultipart20190517-1-1fhl8po.jpg to /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-pv28b9.jpg
+[paperclip] Trying to link /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-pv28b9.jpg to /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-xt301x.jpg
+Command :: file -b --mime '/tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-xt301x.jpg'
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+[paperclip] Trying to link /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-pv28b9.jpg to /tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-14t39a5.jpg
+Command :: file -b --mime '/tmp/cc87b8f06aa89dbd2693ec39b202975820190517-1-14t39a5.jpg'
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "books" ("title", "author", "description", "genre", "created_at", "updated_at", "photo_file_name", "photo_content_type", "photo_file_size", "photo_updated_at") VALUES ($1, $2, $3, $4, $5, $6, $7, $8, $9, $10) RETURNING "id"[0m  [["title", "La Sombra del Viento"], ["author", "Carlos Ruiz Safon"], ["description", "aaaa"], ["genre", "novela"], ["created_at", "2019-05-17 16:30:43.805300"], ["updated_at", "2019-05-17 16:30:43.805300"], ["photo_file_name", "portada_la-sombra-del-viento_carlos-ruiz-zafon_201609051632.jpg"], ["photo_content_type", "image/jpeg"], ["photo_file_size", 27923], ["photo_updated_at", "2019-05-17 16:30:43.760469"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 72ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 16:30:43 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.8ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.4ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (17.4ms)
+  Rendered layouts/_navbar.html.erb (0.6ms)
+Completed 200 OK in 288ms (Views: 235.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 16:32:09 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (4.8ms)
+  Rendered books/show.html.erb within layouts/application (17.0ms)
+Completed 500 Internal Server Error in 55ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `image' for #<Book:0x00007efc016c3118>):
+    3:     <h1> <%= @book.title %> </h1>
+    4:   </div>
+    5:   <div class="card-body">
+    6:     <%= image_tag @book.image.url %>
+    7:   </div>
+    8:   <div class="card-footer">
+    9:     <p> Este libro pertenece al genero <%= @book.genre %> </p>
+  
+app/views/books/_card.html.erb:6:in `_app_views_books__card_html_erb__1327935417041262228_69810410194940'
+app/views/books/show.html.erb:5:in `_app_views_books_show_html_erb__4410400598695038907_69810410337540'
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 16:32:21 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.7ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (0.9ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 240ms (Views: 221.3ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 16:59:07 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (3.5ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 295ms (Views: 279.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/books/new" for 192.168.160.1 at 2019-05-17 16:59:09 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#new as HTML
+  Rendering books/new.html.erb within layouts/application
+  Rendered books/_form.html.erb (2.8ms)
+  Rendered books/new.html.erb within layouts/application (14.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 230ms (Views: 214.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 16:59:11 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (1.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.0ms)
+  [1m[36mReview Load (0.5ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (20.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 308ms (Views: 272.6ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 16:59:13 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (2.7ms)
+  Rendered reviews/new.html.erb within layouts/application (19.7ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 274ms (Views: 251.9ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/" for 192.168.160.1 at 2019-05-17 18:13:52 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered welcome/index.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 212ms (Views: 198.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/books" for 192.168.160.1 at 2019-05-17 18:13:53 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 2.2ms)
+
+
+  
+NameError (undefined local variable or method `style' for #<Class:0x00007efc01c32f90>):
+  
+app/models/book.rb:2:in `<class:Book>'
+app/models/book.rb:1:in `<top (required)>'
+app/controllers/books_controller.rb:7:in `index'
+Started GET "/books" for 192.168.160.1 at 2019-05-17 18:14:10 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#index as HTML
+  Rendering books/index.html.erb within layouts/application
+  [1m[36mBook Load (0.3ms)[0m  [1m[34mSELECT "books".* FROM "books"[0m
+  Rendered books/index.html.erb within layouts/application (15.9ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 314ms (Views: 268.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 18:14:18 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.3ms)
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (27.0ms)
+  Rendered layouts/_navbar.html.erb (0.7ms)
+Completed 200 OK in 376ms (Views: 332.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 18:14:25 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (3.6ms)
+  Rendered reviews/new.html.erb within layouts/application (23.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 256ms (Views: 226.8ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 18:14:35 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"APyjj4Uw4lA/a5hE6O9CNsyZ3V/84+YpBVNcSh1AfpOPfNpQOXkbTQ8YWH8WyzQx4jJtTfdNyvbfgFlucT4e0Q==", "review"=>{"title"=>"buen libro", "body"=>"me gusto!", "book_id"=>"3"}, "commit"=>"Create Review"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "body", "book_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "Buen libro"], ["body", "me gusto!"], ["book_id", 3], ["created_at", "2019-05-17 18:14:35.757783"], ["updated_at", "2019-05-17 18:14:35.757783"]]
+  [1m[35m (1.5ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 51ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 18:14:35 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.3ms)
+  [1m[36mReview Load (1.1ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (19.5ms)
+  Rendered layouts/_navbar.html.erb (1.1ms)
+Completed 200 OK in 293ms (Views: 266.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 18:15:28 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (2.2ms)
+  Rendered reviews/new.html.erb within layouts/application (14.9ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 319ms (Views: 273.9ms | ActiveRecord: 3.2ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 18:15:39 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"/pmtLjTFdv0mhrC4e7/SDroP6OoVzNb7SUCFN8EwiClxGdTxiIyP4Bb1cIOFm6QJlKRY+B5i+iSTk4ATrU7oaw==", "review"=>{"title"=>"pesimo libro", "body"=>"aaaaa", "book_id"=>"3"}, "commit"=>"Create Review"}
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `upper' for "pesimo libro":String):
+  
+app/controllers/reviews_controller.rb:29:in `create'
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 18:15:42 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (2.2ms)
+  Rendered reviews/new.html.erb within layouts/application (16.3ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 269ms (Views: 252.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 18:16:05 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3819hykWrx4e8CsZQRVkTYpWQ3/amrKv+AEs8kA0sMlQTQRYlV9WAy6D6yK/MRJKpP3zbdE0nnAi0inWLErQiw==", "review"=>{"title"=>"pesimo libro", "body"=>"lo odie", "book_id"=>"3"}, "commit"=>"Create Review"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "body", "book_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "PESIMO LIBRO"], ["body", "lo odie"], ["book_id", 3], ["created_at", "2019-05-17 18:16:05.885623"], ["updated_at", "2019-05-17 18:16:05.885623"]]
+  [1m[35m (3.0ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 82ms (ActiveRecord: 10.8ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 18:16:05 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.6ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.1ms)
+  [1m[36mReview Load (0.7ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (19.9ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 316ms (Views: 285.6ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 18:16:09 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (1.7ms)
+  Rendered reviews/new.html.erb within layouts/application (17.0ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 266ms (Views: 248.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 18:16:15 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PYDuvofV08dIoOoCzl3QB2W6xHFdyyAXOfbMNcWulT2yAJdhO5wq2njTKjkweaYASxF0Y1ZlDMjjJckRqdD1fw==", "review"=>{"title"=>"iic2143", "body"=>"q", "book_id"=>"3"}, "commit"=>"Create Review"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.5ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "body", "book_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "IIC2143"], ["body", "q"], ["book_id", 3], ["created_at", "2019-05-17 18:16:15.705348"], ["updated_at", "2019-05-17 18:16:15.705348"]]
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 11ms (ActiveRecord: 2.8ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 18:16:15 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.9ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.0ms)
+  [1m[36mReview Load (0.6ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (16.8ms)
+  Rendered layouts/_navbar.html.erb (0.5ms)
+Completed 200 OK in 253ms (Views: 230.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/reviews/new?id=3" for 192.168.160.1 at 2019-05-17 18:16:18 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#new as HTML
+  Parameters: {"id"=>"3"}
+  Rendering reviews/new.html.erb within layouts/application
+  Rendered reviews/_form.html.erb (1.6ms)
+  Rendered reviews/new.html.erb within layouts/application (18.8ms)
+  Rendered layouts/_navbar.html.erb (0.4ms)
+Completed 200 OK in 315ms (Views: 297.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/reviews" for 192.168.160.1 at 2019-05-17 18:16:28 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by ReviewsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dznyhpKSlCUjNKkz0M1IC7cKWOnJuwjWO338D+AJX+P4uYtZLtttOBNHaQgu6T4MmaHo+8IVJAnhrvkrjHc/oQ==", "review"=>{"title"=>"Iic2143", "body"=>"aaa", "book_id"=>"3"}, "commit"=>"Create Review"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "reviews" ("title", "body", "book_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4, $5) RETURNING "id"[0m  [["title", "IIC2143"], ["body", "aaa"], ["book_id", 3], ["created_at", "2019-05-17 18:16:28.634891"], ["updated_at", "2019-05-17 18:16:28.634891"]]
+  [1m[35m (2.8ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/books/3
+Completed 302 Found in 15ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/books/3" for 192.168.160.1 at 2019-05-17 18:16:28 +0000
+Cannot render console from 192.168.160.1! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by BooksController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mBook Load (0.4ms)[0m  [1m[34mSELECT  "books".* FROM "books" WHERE "books"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering books/show.html.erb within layouts/application
+  Rendered books/_card.html.erb (1.1ms)
+  [1m[36mReview Load (0.8ms)[0m  [1m[34mSELECT "reviews".* FROM "reviews" WHERE "reviews"."book_id" = $1[0m  [["book_id", 3]]
+  Rendered books/show.html.erb within layouts/application (21.0ms)
+  Rendered layouts/_navbar.html.erb (0.3ms)
+Completed 200 OK in 249ms (Views: 230.3ms | ActiveRecord: 1.2ms)
+
+
