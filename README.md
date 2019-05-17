@@ -2,4 +2,4 @@
 
 Esta ayudantia consta de dos partes
 1. Instalacion y uso de bootsrap
-2. Instalcion de Filestack y uso
+2. Instalcion de Paperclip y uso
