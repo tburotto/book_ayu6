@@ -28,7 +28,7 @@ Agregar las siguientes líneas:
 
 ``` docker-compose exec web rails g simple_form:install -bootstrap ```
 
-- Ir al archivo ``` app/assets/stylesheets/application.css ``` renombrarlo para que quede como ```application.css ```
+- Ir al archivo ``` app/assets/stylesheets/application.css ``` renombrarlo para que quede como ```application.scss ```
 
 - Editar ese archivo borrando todo lo que aparece comentado y reemplazarlo por 
 ~~~
