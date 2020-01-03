@@ -1,4 +1,4 @@
-# Ayudantia 6
+# Ayudantia 6 - Ingeniería de Software
 
 ## Bootstrap ##
 Bootstrap es una biblioteca multiplataforma o conjunto de herramientas de código abierto para diseño de sitios y aplicaciones web.
